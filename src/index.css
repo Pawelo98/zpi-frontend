@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.slick-slide {
+  padding: 10px;
+}
+
+.slick-list {
+  margin: 10px;
+}
+
+.slick-initialized .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-dots {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.slick-thumb {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ant-input-affix-wrapper .ant-input-prefix {
+  left: 12px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: orange;
+  border-color: orange;
+}
+
+.ant-input:focus {
+  border-color: #57a8e9;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, .2);
+}
+
+.MuiPaper-paper {
+  top: "auto";
+  z-index: -10;
+}
+
+.MuiDrawer-paperAnchorLeft{
+  top: "auto";
+}
+
+.steps-content {
+  margin-top: 16px;
+  border-radius: 2px;
+  background-color: #fafafa;
+  min-height: 200px;
+  text-align: center;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
